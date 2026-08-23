@@ -1,0 +1,1 @@
+3c515848c9335e2dd9810e6f577b184030c3a3e036e4f3937865a65eff05962f  openmanet-1.8.0-heltec_ht-hd01-v2-mm6108-squashfs-sysupgrade.bin

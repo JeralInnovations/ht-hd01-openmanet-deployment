@@ -1,0 +1,39 @@
+# Operator credentials and SSH state
+openmanet_diag_*
+*.pem
+*.key
+ht-hd01-*-wifi-profile.xml
+ht-hd01-stock-wifi.xml
+
+# Generated diagnostics and machine-local results
+*-result.txt
+*-backup.txt
+vlc-help.txt
+*.log
+*.tmp
+
+# Firmware is obtained separately; retain firmware/SHA256SUMS.txt
+firmware/*.bin
+
+# Dependency and build output
+**/node_modules/
+**/.gradle/
+**/build/
+**/.next/
+**/dist/
+*.apk
+*.aab
+
+# Editor and OS files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Separate experimental applications kept beside this deployment repo
+bombs-low-latency-viewer/
+bombscam2-viewer/
+open-bombscam2-viewer.ps1
+camera-launcher-webapp/*
+!camera-launcher-webapp/radio/
+!camera-launcher-webapp/radio/**

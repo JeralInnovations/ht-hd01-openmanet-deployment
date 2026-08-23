@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#080b0d">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <title>Bombs Camera</title>
+  <meta name="description" content="One-tap local mesh camera launcher for Bomb Squad operations.">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" sizes="192x192" href="icon-192.png">
+  <link rel="apple-touch-icon" href="icon-192.png">
+  <link rel="stylesheet" href="app.css">
+</head>
+<body>
+  <main class="shell" aria-label="Bombs camera launcher">
+    <section class="panel">
+      <div class="camera-mark" aria-hidden="true"><span class="lens"></span><span class="indicator"></span></div>
+      <p class="eyebrow">BOMB SQUAD MESH</p>
+      <h1>Bombs Camera</h1>
+      <p id="status" class="status" role="status" aria-live="polite">Preparing camera…</p>
+
+      <form id="setup" class="setup-form" hidden>
+        <label for="camera-password">Camera password</label>
+        <input id="camera-password" type="password" autocomplete="current-password" required>
+        <button type="submit">Save on this phone &amp; open camera</button>
+        <p class="privacy-note">Stored only in this phone browser. Use a camera-only password.</p>
+      </form>
+
+      <div id="launcher" class="launch-actions" hidden>
+        <button id="open-camera" type="button">Open camera</button>
+        <button id="change-password" type="button" class="reset-button">Change camera password</button>
+      </div>
+
+      <p class="endpoint">10.41.0.51 · profile1 · local mesh only</p>
+    </section>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
