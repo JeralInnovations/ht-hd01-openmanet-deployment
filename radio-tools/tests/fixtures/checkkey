@@ -1,0 +1,5 @@
+#!/bin/sh
+while true; do
+    read key
+    sleep 0.1
+done

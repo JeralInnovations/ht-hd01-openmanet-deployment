@@ -31,6 +31,7 @@ The broader design and remaining work are tracked in
 - `mesh-throughput-http-server.ps1` - dependency-free mesh throughput target.
 - `open-camera2-video.*` - credential-prompted local camera stream launcher.
 - `open-camera*-*.cmd` - SSH tunnel helpers for the recorded test topology.
+- `radio-tools/` - checked, reversible radio-side firmware workarounds.
 - `camera-launcher-webapp/radio/` - dependency-free phone launcher deployed to
   the radio web root.
 
