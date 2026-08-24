@@ -21,6 +21,7 @@ or local helper scripts belong here as deployment configuration.
 3. Obtain the exact approved OpenMANET image separately.
 4. Verify it against [firmware/SHA256SUMS.txt](firmware/SHA256SUMS.txt).
 5. Record new radio settings in [RADIO_SETUP_LOG.csv](RADIO_SETUP_LOG.csv).
+6. Record camera identity and reservations in [CAMERA_INVENTORY.csv](CAMERA_INVENTORY.csv).
 
 The broader design and remaining work are tracked in
 [OPENMANET_HT-HD01_V2_VIDEO_PLAN.md](OPENMANET_HT-HD01_V2_VIDEO_PLAN.md).

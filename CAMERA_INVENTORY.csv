@@ -1,0 +1,3 @@
+physical_label,dhcp_name,mac_address,reserved_ip,connection,service_signature,direct_node,reservation_nodes,status,last_verified,notes
+C-95,camera-c95,18:EF:3A:3D:1D:26,10.41.0.52,2.4GHz Wi-Fi,"TCP 81; HTTP 401; GoAhead-Webs",Bombs3,"Bombs1; Bombs3",reset_required,2026-08-23,"First camera; currently reachable; operator reports reset is required; Bombs2 reservation not verified while node is offline"
+C-59-2,camera-c59-2,18:EF:3A:FE:9C:4B,10.41.0.110,2.4GHz Wi-Fi,"TCP 81; HTTP 401; GoAhead-Webs",Bombs3,"Bombs1; Bombs3",active,2026-08-23,"Second matching camera; reserved at its active lease without interruption; observed at -15 dBm and approximately 54.5 Mbps expected Wi-Fi throughput; Bombs2 reservation pending while node is offline"
